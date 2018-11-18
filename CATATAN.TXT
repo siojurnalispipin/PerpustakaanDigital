@@ -1,0 +1,15 @@
+++++++++++++
+Detail Login
+Admin
+
+Email: admin@gmail.com
+Password: rahasia
+Member
+
+Email: member@gmail.com
+Password: rahasia
+
+https://github.com/ryanrahman26/larabuk
+
++++++++++++++
+
