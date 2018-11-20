@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Role;
 use App\User;
 use Yajra\Datatables\Html\Builder;
-use Yajra\Datatables\Facades\Datatables;
+use Yajra\Datatables\Datatables;
 use App\Http\Requests\StoreMemberRequest;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Mail;
@@ -23,11 +23,16 @@ class MembersController extends Controller
     {
         if ($request->ajax()) {
 
-            $members = Role::where('name', 'member')->first()->users;
+            $members = Role::where('name', 'admin')->first()->users;
 
             return Datatables::of($members)
                 ->addColumn('action', function($member) {
-                    return view('datatable._member-action', compact('member'))->render();
+                    
+                    // ini bermasalah untuk menampilkan ajax datatable
+                    // return view('datatable._member-action', compact('member'))->render();
+
+                    // ini untuk backup sementara
+                    return "Berhasil ditampilkan";
                 })->make(true);
         }
 

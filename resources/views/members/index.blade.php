@@ -33,4 +33,5 @@
 
 @section('scripts')
     {!! $html->scripts() !!}
+    
 @endsection
