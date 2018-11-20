@@ -15,10 +15,10 @@
     <div class="row">
         <div class="col-md-12">
             <div class="callout callout-success">
-              <h4>Selamat Datang di Larabuk</h4>
+              <h4>Selamat Datang di Perpusstakaan Digital</h4>
 
-              <p>Sistem Informasi Perpustkaan Laravel 5.4 & AdminLTE</p>
-              <p>Dibuat oleh <a href="https://www.facebook.com/ryanrahman26" target="_blank">Ryan Rahman Setiawan</a>, lihat respository <a href="#" target="_blank">GitHub</a></p>
+              <p>Aplikasi perpustakaan digital dengan DRM System dengan sistem rekomendasi MFCM berbasis mobile dan web</p>
+              
             </div>
         </div>
     </div>
