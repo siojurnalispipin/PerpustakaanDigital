@@ -107,3 +107,7 @@ Route::group(['midlleware' => 'web'], function() {
         ]);
     });
 });
+
+
+// Tampilan beranda biasa
+Route::get('/aes', 'AesController@index');

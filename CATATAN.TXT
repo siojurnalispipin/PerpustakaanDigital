@@ -13,3 +13,4 @@ https://github.com/ryanrahman26/larabuk
 
 +++++++++++++
 
+php artisan make:controller aes
